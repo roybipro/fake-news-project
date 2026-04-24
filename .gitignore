@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+myenv/
+venv/
+venv311/
+.env
+
+# OS/editor files
+.DS_Store
+.vscode/
+
+# Model training artifacts (keep final model files in model/)
+model/checkpoint-*/
+model/model.safetensors
+model/**/optimizer.pt
+model/**/scheduler.pt
+model/**/rng_state.pth
+model/**/trainer_state.json
